@@ -1,6 +1,7 @@
 export {};
 
 class Person {
+  //アクセス修飾子をconstructorの引数につけることで初期化処理が行われる
   constructor(public name: string, protected age: number) {}
 }
 
